@@ -1,0 +1,25 @@
+
+h2{
+    color:green;
+}
+.btn-success{
+    padding: 5px 20px;
+}
+
+.container{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+    padding: 30px;
+    opacity: 0;
+}
+#container.show{
+    opacity: 1;
+    transition: 1.3s;
+}
+
+#show-btn{
+    position: absolute;
+    right: 4%;
+    margin-bottom: 20%;
+    padding: 5px 10px;
+}
